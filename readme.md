@@ -1,5 +1,7 @@
 # Titanium Turbo Template (Default)
 
+![https://www.npmjs.com/package/@titanium/template-turbo-default](https://img.shields.io/npm/v/@titanium/template-turbo-default.png)
+
 > This template is based on the new project that is created when using the Titanium Mobile CLI tool, with some modifications (see below)
 
 ## Usage
@@ -46,9 +48,13 @@ mobile app:create my-new-app @titanium/template-turbo-default
 
 ## Other Projects
 
+* [Titanium Turbo](https://www.npmjs.com/package/@titanium/turbo) - fork of **`Titanium Alloy`** that adds some enhancements and customizations for rapid development.
 * [Geek Mobile Toolkit](https://www.npmjs.com/package/@geek/mobile) - Toolkit for creating, building, and managing mobile app projects.
 * [Titanium Alloy Template (Basic)](https://www.npmjs.com/package/@titanium/template-alloy-basic) - Basic Alloy app.  What you get when creating new app project with Titanium CLI.
 * [Titanium Alloy Template (Default)](https://www.npmjs.com/package/@titanium/template-alloy-default) - Default Alloy app.  Based on the Basic Alloy Template + some extra goodies.
+
+
+> _Turbo is not an official Axway product.  It is an open-source project that is supported exclusively by the Titanium development community._
 
 ----------------------------------
 Stuff our legal folk make us say:
