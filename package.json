@@ -1,6 +1,6 @@
 {
   "name": "@titanium/template-turbo-default",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Titanium Native Template - Turbo Default -- Default Titanium Turbo template",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,6 @@
   "license": "MIT",
   "devDependencies": {
     "@titanium/eslint-config": "0.0.3",
-    "@titanium/plugin-turbo": "^1.0.2",
-    "@titanium/turbo": "^1.13.10-0",
     "eslint": "^5.16.0"
   },
   "dependencies": {}
