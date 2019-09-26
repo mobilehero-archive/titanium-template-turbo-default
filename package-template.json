@@ -8,11 +8,11 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"lodash": "^4.17.11",
-		"@titanium/eslint-config": "0.0.4",
+		"lodash": "^4.17.15",
+		"@titanium/eslint-config": "0.0.10",
 		"@titanium/plugin-turbo": "^1.0.2",
-		"@titanium/turbo": "^1.14.0-2",
-		"eslint": "^5.16.0"
+		"@titanium/turbo": "^1.14.1-9",
+		"eslint": "^6.4.0"
 	},
 	"keywords": [
 		"titanium",

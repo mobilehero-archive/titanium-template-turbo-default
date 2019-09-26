@@ -1,6 +1,14 @@
+
+<a href="#titanium-turbo-template-default">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+	</p>
+</a>
+
 # Titanium Turbo Template (Default)
 
-![https://www.npmjs.com/package/@titanium/template-turbo-default](https://img.shields.io/npm/v/@titanium/template-turbo-default.png)
+[![@titanium/template-turbo-default](https://img.shields.io/npm/v/@titanium/template-turbo-default.png)](https://www.npmjs.com/package/@titanium/template-turbo-default)
 
 > This template is based on the new project that is created when using the Titanium Mobile CLI tool, with some modifications (see below)
 
@@ -27,7 +35,7 @@ mobile app:create my-new-app @titanium/template-turbo-default
 
 ## Current Features
 
-* Titanium SDK 8.0.1.GA
+* Titanium SDK 8.2.0.GA
 * Updated .gitignore file
 * Modifications to `tiapp.xml`:
   * Added the following iOS permissions:
