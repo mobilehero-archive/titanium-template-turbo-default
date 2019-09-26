@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/template-turbo-default",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Titanium Native Mobile Template - Turbo Default -- Default Titanium Turbo template",
 	"main": "index.js",
 	"scripts": {
