@@ -9,6 +9,8 @@
 # Titanium Turbo Template (Default)
 
 [![@titanium/template-turbo-default](https://img.shields.io/npm/v/@titanium/template-turbo-default.png)](https://www.npmjs.com/package/@titanium/template-turbo-default)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/template-turbo-default)](https://dependabot.com)
+
 
 > This template is based on the new project that is created when using the Titanium Mobile CLI tool, with some modifications (see below)
 
