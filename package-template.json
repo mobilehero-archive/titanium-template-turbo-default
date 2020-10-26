@@ -6,13 +6,18 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"@titanium/essentials": "^1.0.21"
+	},
 	"devDependencies": {
-		"lodash": "^4.17.15",
-		"@titanium/eslint-config": "0.0.10",
-		"@titanium/plugin-turbo": "^1.0.2",
-		"@titanium/turbo": "^1.14.1-9",
-		"eslint": "^6.4.0"
+		"lodash": "^4.17.20",
+		"eslint": "^7.12.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.7.3",
+		"eslint-plugin-promise": "^4.2.1",
+		"@titanium/plugin-turbo": "^1.0.6",
+		"@titanium/turbo": "^2.0.13",
+		"titanium": ">=5.3.0"
 	},
 	"keywords": [
 		"titanium",

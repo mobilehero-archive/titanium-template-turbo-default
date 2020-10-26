@@ -1,12 +1,14 @@
 {
 	"name": "@titanium/template-turbo-default",
-	"version": "0.0.11",
+	"version": "1.0.1",
 	"description": "Titanium Native Mobile Template - Turbo Default -- Default Titanium Turbo template",
 	"main": "index.js",
 	"scripts": {
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"test": "npm install --ignore-scripts && npm run list-files",
-		"prepublishOnly": "git pull && bump"
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"prepublish": "bump release --tiapp false",
+		"test": "npm run prep"
 	},
 	"repository": {
 		"type": "git",
@@ -23,8 +25,16 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"@titanium/eslint-config": "0.0.10",
-		"eslint": "^6.4.0"
+		"@titanium/eslint-config": "0.0.18",
+		"eslint": "^7.12.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.7.3",
+		"eslint-plugin-promise": "^4.2.1",
+		"lodash": "^4.17.20",
+		"fs-extra": "^9.0.1",
+		"bluebird": "^3.7.2"
 	},
-	"dependencies": {}
+	"titaniumDependencies": {
+		"@titanium/essentials": "^1.0.21"
+	}
 }
