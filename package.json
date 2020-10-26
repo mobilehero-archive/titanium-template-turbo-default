@@ -1,6 +1,6 @@
 {
   "name": "@titanium/template-turbo-default",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Titanium Native Mobile Template - Turbo Default -- Default Titanium Turbo template",
   "bugs": {
     "url": "https://github.com/brentonhouse/titanium-template-turbo-default/issues",
@@ -36,7 +36,7 @@
   },
   "titaniumDependencies": {
     "@titanium/essentials": "^1.0.21",
-    "@geek/logger": "^1.0.15",
+    "@geek/logger": "^1.0.16",
     "@geek/jsonc": "^1.0.0",
     "ansi-colors": "^4.1.1"
   },
