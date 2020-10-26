@@ -2,6 +2,10 @@
 .DS_Store
 Thumbs.db
 
+# Config files
+.env
+.envrc
+
 # Temporary files
 tmp
 
