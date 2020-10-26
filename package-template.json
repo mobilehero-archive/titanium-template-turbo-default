@@ -18,7 +18,9 @@
 	},
 	"dependencies": {
 		"@titanium/essentials": "^1.0.21",
-		"@geek/logger": "^1.0.14"
+		"@geek/logger": "^1.0.14",
+		"@geek/jsonc": "^1.0.0",
+		"ansi-colors": "^4.1.1"
 	},
 	"devDependencies": {
 		"lodash": "^4.17.20",
