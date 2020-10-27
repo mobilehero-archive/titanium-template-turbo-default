@@ -1,6 +1,6 @@
 {
   "name": "@titanium/template-turbo-default",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Titanium Native Mobile Template - Turbo Default -- Default Titanium Turbo template",
   "bugs": {
     "url": "https://github.com/brentonhouse/titanium-template-turbo-default/issues",
@@ -47,7 +47,7 @@
     "eslint-plugin-jsdoc": "^30.7.3",
     "eslint-plugin-promise": "^4.2.1",
     "@titanium/plugin-turbo": "^1.0.6",
-    "@titanium/turbo": "^2.0.14",
+    "@titanium/turbo": "^2.0.15",
     "titanium": ">=5.3.0"
   }
 }

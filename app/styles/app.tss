@@ -24,3 +24,25 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+"Label[platform=android,windows]": {
+	"color": "#000", // all platforms except Android and Windows default to black
+},
+
+"TabGroup[platform=android]": {
+	"style": Titanium.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION,
+	"shiftMode": false,
+},
+
+"TabGroup": {
+	"backgroundColor": "#f9f9f9"
+},
+
+"Tab": {
+	"activeTitleColor": "#2e7df6",
+	"titleColor": "#a1a1a1"
+},
+
+"TextField": {
+	"height": 40,
+},
