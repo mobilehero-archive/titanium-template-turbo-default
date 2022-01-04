@@ -1,49 +1,67 @@
 {
-  "name": "@titanium/template-turbo-default",
-  "version": "1.0.13",
-  "description": "Titanium Native Mobile Template - Turbo Default -- Default Titanium Turbo template",
-  "bugs": {
-    "url": "https://github.com/brentonhouse/titanium-template-turbo-default/issues",
-    "email": "brenton.house@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/brentonhouse/titanium-template-turbo-default.git"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Brenton House",
-    "email": "brenton.house@gmail.com",
-    "url": "https://github.com/brentonhouse"
-  },
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --fix",
-    "list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-    "prep": "npm install --ignore-scripts && npm run list",
-    "prepublish": "bump release --tiapp false",
-    "test": "npm run prep"
-  },
-  "devDependencies": {
-    "@titanium/eslint-config": "0.0.18",
-    "bluebird": "^3.7.2",
-    "eslint": "^7.12.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.3",
-    "eslint-plugin-promise": "^4.2.1",
-    "fs-extra": "^9.0.1",
-    "lodash": "^4.17.20"
-  },
-  "titaniumDependencies": {
-    "@titanium/turbo": "^2.1.6",
-    "@titanium/plugin-turbo": "^1.0.6"
-  },
-  "titaniumDevDependencies": {
-    "lodash": "^4.17.20",
-    "eslint": "^7.12.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^30.7.3",
-    "eslint-plugin-promise": "^4.2.1",
-    "titanium": ">=5.3.0"
-  }
+	"name": "@titanium/template-turbo-default",
+	"version": "1.0.15",
+	"description": "Axway Amplify template for creating new modules for Appcelerator Titanium Turbo",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-template-turbo-default/issues",
+		"email": "brenton.house@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brentonhouse/titanium-template-turbo-default.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://github.com/brentonhouse"
+	},
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"prepublish2": "bump release --tiapp false",
+		"test": "npm run prep"
+	},
+	"devDependencies": {
+		"@titanium/eslint-config": "0.0.18",
+		"bluebird": "^3.7.2",
+		"eslint": "^7.12.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.7.3",
+		"eslint-plugin-promise": "^4.2.1",
+		"fs-extra": "^9.0.1",
+		"lodash": "^4.17.20"
+	},
+	"titaniumDependencies": {
+		"@titanium/turbo": "^2.1.6",
+		"@titanium/plugin-turbo": "^1.0.6"
+	},
+	"titaniumDevDependencies": {
+		"lodash": "^4.17.20",
+		"eslint": "^7.12.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.7.3",
+		"eslint-plugin-promise": "^4.2.1",
+		"titanium": ">=5.3.0"
+	},
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"eslint",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"modules",
+		"axway-amplify",
+		"amplify",
+		"api-builder",
+		"brenton-house"
+	]
 }
