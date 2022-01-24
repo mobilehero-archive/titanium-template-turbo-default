@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/template-turbo-default",
-	"version": "1.0.47",
+	"version": "1.0.48",
 	"description": "⭐  Axway Amplify template for creating new Turbo modules for Appcelerator Titanium SDK",
 	"bugs": {
 		"url": "https://github.com/mobilehero-archive/titanium-template-turbo-default/issues"
