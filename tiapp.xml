@@ -3,7 +3,7 @@
 		  xmlns:ti="http://ti.appcelerator.org">
 	<id>${id}</id>
 	<name>${name}</name>
-	<version>1.0.53</version>
+	<version>1.0.54</version>
 	<publisher>${publisher}</publisher>
 	<url>${url}</url>
 	<description>${description}</description>
@@ -27,9 +27,9 @@
 		<plist>
 			<dict>
 				<key>CFBundleVersion</key>
-				<string>1.0.53</string>
+				<string>1.0.54</string>
 				<key>CFBundleShortVersionString</key>
-				<string>1.0.53</string>
+				<string>1.0.54</string>
 				<key>UISupportedInterfaceOrientations~iphone</key>
 				<array>
 					<string>UIInterfaceOrientationPortrait</string>
@@ -103,7 +103,7 @@
 	<android
 				xmlns:android="http://schemas.android.com/apk/res/android">
 		<manifest
-					 xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100053000">
+					 xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100054000">
 			<application android:debuggable="true" android:icon="@drawable/appicon" android:label="${name}" android:largeHeap="true" android:screenOrientation="portrait" android:theme="@style/turbo_theme"></application>
 		</manifest>
 	</android>
